@@ -1,3 +1,4 @@
+/*Style Forgot Password*/
 body{
   font-family: 'Nunito', sans-serif;
 }
@@ -122,6 +123,125 @@ footer.footer .link-social i{
   margin-right: 17.5px;
 }
 
+/*Style Login*/
+
+.header-login{
+  background-image: url(./images/header-login.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 758px;
+}
+
+.header-login .header-content{
+  background-color:rgba(0, 0, 0, 0.4);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 758px;
+  color: white;
+}
+
+.header-login .header-content h1.heading{
+  font-family: 'Playfair Display', serif;;
+  font-weight: 700;
+  font-size: 64px;
+  width: 550px;
+  padding-top: 107px;
+  padding-left: 139px;
+  line-height: 85px;
+}
+
+.header-login .header-content p.signup{
+  font-weight: 700;
+  margin-top: 43px;
+  padding-left: 139px;
+}
+
+.header-login .header-content div button.button-signup{
+  width: 391px;
+  height: 79px;
+  margin-left: 138px;
+  font-size: 24px;
+  font-weight: 900;
+  border: none;
+  border-radius: 10px;
+  background-color: #072227;
+  color: #AEFEFF;
+}
+
+.header-login .header-content div input.email{
+  width: 447px;
+  height: 79px;
+  border: none;
+  border-radius: 10px;
+  font-size: 24px;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: white;
+  margin-top: 166px;
+  margin-bottom: 31px;
+  margin-left: 120px;
+}
+
+.header-login .header-content div input.password{
+  width: 447px;
+  height: 79px;
+  border: none;
+  border-radius: 10px;
+  font-size: 24px;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: white;
+  margin-top: 24;
+  margin-bottom: 31px;
+  margin-left: 120px;
+}
+
+.header-login .header-content div input:focus{
+  outline: none;
+}
+
+.header-login .header-content div p.forgot{
+  font-size: 18px;
+  font-family: 'Mulish', sans-serif;
+  line-height: 28px;
+  text-decoration: underline;
+  color: white;
+  margin-top: 0;
+  margin-bottom: 31px;
+  margin-left: 120px;
+}
+
+.header-login .header-content div button.button-login{
+  width: 446px;
+  height: 79px;
+  border: none;
+  border-radius: 10px;
+  margin-left: 120px;
+  margin-top: 19px;
+  background-color: #4FBDBA;
+  font-weight: 900;
+  font-size: 24px;
+}
+
+.header-login .header-content div button.button-login-google{
+  width: 446px;
+  height: 79px;
+  border: none;
+  border-radius: 10px;
+  margin-left: 120px;
+  margin-top: 19px;
+  background-color:white;
+  font-weight: 900;
+  font-size: 24px;
+}
+
+.header-login .header-content div input.email::placeholder{
+  color: white;
+  padding-left: 41px;
+}
+
+.header-login .header-content div input.password::placeholder{
+  color: white;
+  padding-left: 41px;
+}
 
 @media (max-width: 500px) {
   .header-forgot .header-content{
@@ -132,5 +252,23 @@ footer.footer .link-social i{
   }
   .header-forgot .header-content form div button.button-send{
     width: 100%;
+  }
+  .header-login .header-content{
+    padding: 0 10px;
+  }
+  .header-login .header-content div button.button-signup{
+    width: 100%
+  }
+  .header-login .header-content div input.email{
+    width: 100%
+  }
+  .header-login .header-content div input.password{
+    width: 100%
+  }
+  .header-login .header-content div button.button-login{
+    width: 100%
+  }
+  .header-login .header-content div button.button-login-google{
+    width: 100%
   }
 }
