@@ -635,31 +635,35 @@ section.testimonials .profile .next-prev i{
 }
 
 @media (max-width: 500px) {
-  .header-forgot .header-content{
+  .header-forgot .header-content {
     padding: 0 10px;
   }
-  .header-forgot .header-content form div input{
+
+  .header-forgot .header-content form div input {
     width: 100%;
   }
-  .header-forgot .header-content form div button.button-send{
+
+  .header-forgot .header-content form div button.button-send {
     width: 100%;
   }
-  .header-login .header-content{
-    padding: 0 10px;
+}
+
+@media (max-width: 991px) {
+    .toggled-action {
+      text-align: center;
+    }
+}
+
+@media (max-width: 1439px) {
+  .navigation {
+    height: 80px;
   }
-  .header-login .header-content div button.button-signup{
-    width: 100%
-  }
-  .header-login .header-content div input.email{
-    width: 100%
-  }
-  .header-login .header-content div input.password{
-    width: 100%
-  }
-  .header-login .header-content div button.button-login{
-    width: 100%
-  }
-  .header-login .header-content div button.button-login-google{
-    width: 100%
+
+.logo-brand {
+  justify-content: center;
+}
+
+.auth-action {
+  text-align: center;
   }
 }
