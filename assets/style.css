@@ -554,13 +554,16 @@ section h2 {
   font-size: 36px;
   font-family: 'Playfair Display', serif;
 }
+
 main section img {
   border-radius: 10px;
   margin-bottom: 15px;
 }
+
 main section a {
   text-decoration: none;
 }
+
 main section .highlight {
   margin-top: -54px;
   position: relative;
@@ -571,11 +574,13 @@ main section .highlight {
   font-family: 'Nunito', sans-serif;
   color: #042521;
 }
+
 main section .highlight h5 {
   color: #042521;
   font-weight: 600;
   font-size: 17px;
 }
+
 main section .highlight span {
   font-size: 17px;
   color: #686767;
@@ -586,10 +591,12 @@ section.testimonials .left-testi {
   justify-content: center;
   flex-direction: column;
 }
+
 section.testimonials .comment i {
   color:#FFBB0C;
   margin-right: 15px;
 }
+
 section.testimonials .comment p {
   margin-top: 31px;
   margin-bottom: 40px;
@@ -598,17 +605,21 @@ section.testimonials .comment p {
   line-height: 36px;
   font-family: 'Mulish', sans-serif;
 }
+
 section.testimonials .profile h5 {
   font-weight: bold;
 }
+
 section.testimonials .profile .image {
   margin: 0 auto;
   width: 396px;
 }
+
 section.testimonials .profile img {
   border-radius: 10px;
   width: 396px;
 }
+
 section.testimonials .profile .next-prev {
   position: relative;
   background-color: #fff;
@@ -618,6 +629,7 @@ section.testimonials .profile .next-prev {
   height: 60px;
   border-radius: 16px 0px 0px 0px;
 }
+
 section.testimonials .profile .next-prev i{
   margin-left: 40px;
 }
