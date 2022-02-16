@@ -124,7 +124,6 @@ footer.footer .link-social i{
 }
 
 /*Style Login*/
-
 .header-login{
   background-image: url(./images/header-login.png);
   background-repeat: no-repeat;
@@ -239,6 +238,132 @@ footer.footer .link-social i{
 }
 
 .header-login .header-content div input.password::placeholder{
+  color: white;
+  padding-left: 41px;
+}
+
+/*Style Register*/
+
+.header-register{
+  background-image: url(./images/header-login.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 758px;
+}
+
+.header-register .header-content{
+  background-color:rgba(0, 0, 0, 0.4);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 758px;
+  color: white;
+}
+
+.header-register .header-content h1.heading{
+  font-family: 'Playfair Display', serif;;
+  font-weight: 700;
+  font-size: 64px;
+  width: 550px;
+  padding-top: 107px;
+  padding-left: 139px;
+  line-height: 85px;
+}
+
+.header-register .header-content p.signup{
+  font-weight: 700;
+  margin-top: 43px;
+  padding-left: 139px;
+}
+
+.header-register .header-content div button.button-login{
+  width: 391px;
+  height: 79px;
+  margin-left: 138px;
+  font-size: 24px;
+  font-weight: 900;
+  border: none;
+  border-radius: 10px;
+  background-color: #072227;
+  color: #AEFEFF;
+}
+
+.header-register .header-content div input.name{
+  width: 447px;
+  height: 79px;
+  border: none;
+  border-radius: 10px;
+  font-size: 24px;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: white;
+  margin-top: 140px;
+  margin-bottom: 31px;
+  margin-left: 120px;
+}
+
+.header-register .header-content div input.email{
+  width: 447px;
+  height: 79px;
+  border: none;
+  border-radius: 10px;
+  font-size: 24px;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: white;
+  margin-top: 24;
+  margin-bottom: 31px;
+  margin-left: 120px;
+}
+
+.header-register .header-content div input.password{
+  width: 447px;
+  height: 79px;
+  border: none;
+  border-radius: 10px;
+  font-size: 24px;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: white;
+  margin-top: 24;
+  margin-bottom: 31px;
+  margin-left: 120px;
+}
+
+.header-register .header-content div input:focus{
+  outline: none;
+}
+
+.header-register .header-content div button.button-signup{
+  width: 446px;
+  height: 79px;
+  border: none;
+  border-radius: 10px;
+  margin-left: 120px;
+  background-color: #4FBDBA;
+  font-weight: 900;
+  font-size: 24px;
+}
+
+.header-register .header-content div button.button-signup-google{
+  width: 446px;
+  height: 79px;
+  border: none;
+  border-radius: 10px;
+  margin-left: 120px;
+  margin-top: 24px;
+  background-color:white;
+  font-weight: 900;
+  font-size: 24px;
+}
+
+.header-register .header-content div input.name::placeholder{
+  color: white;
+  padding-left: 41px;
+}
+
+.header-register .header-content div input.email::placeholder{
+  color: white;
+  padding-left: 41px;
+}
+
+.header-register .header-content div input.password::placeholder{
   color: white;
   padding-left: 41px;
 }
