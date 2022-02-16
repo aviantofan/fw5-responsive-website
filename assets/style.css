@@ -368,6 +368,180 @@ footer.footer .link-social i{
   padding-left: 41px;
 }
 
+/*Style Home*/
+.header-home{
+  background-image: url(./images/header-home.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 758px;
+}
+
+.header-home .header-content{
+  background-color:rgba(0, 0, 0, 0.5);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 758px;
+  color: white;
+}
+
+.header-home .header-content .header-nav span{
+  font-size: 24px;
+}
+
+.header-home .header-content h1.heading2{
+  font-size: 64px;
+  font-family: 'Playfair Display', serif;
+  text-align: left;
+  font-weight: bold;
+  line-height: 85px;
+  padding-top: 69px;
+  padding-left: 121px;
+  margin-bottom: 0;
+}
+
+.header-home .header-content p.text2{
+  font-size: 22px;
+  text-align: left;
+  font-weight: 900;
+  line-height: 85px;
+  padding-left: 121px;
+  padding-top: 20px;
+  margin-bottom: 0;
+}
+
+.header-home .header-content div.line2{
+  background:white;
+  width: 32px;
+  height: 2px;
+  margin-left: 123px;
+  border-radius: 4px;
+  margin-bottom: 48px;
+}
+
+.header-home .header-content div select.location{
+  width: 220px;
+  height: 52px;
+  margin-left: 123px;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.5);
+  font-family: 'Nunito', sans-serif;
+  padding-left: 31px;
+  font-weight: 700;
+  color: #393939;
+}
+
+.header-home .header-content div select.type{
+  width: 220px;
+  height: 52px;
+  margin-left: 30px;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.5);
+  font-family: 'Nunito', sans-serif;
+  padding-left: 31px;
+  font-weight: 700;
+  color: #393939;
+}
+
+.header-home .header-content div select.payment{
+  width: 220px;
+  height: 52px;
+  margin-top: 35px;
+  margin-left: 123px;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.5);
+  font-family: 'Nunito', sans-serif;
+  padding-left: 31px;
+  font-weight: 700;
+  color: #393939;
+}
+
+.header-home .header-content div select.date{
+  width: 220px;
+  height: 52px;
+  margin-left: 30px;
+  margin-top: 35px;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.5);
+  font-family: 'Nunito', sans-serif;
+  padding-left: 31px;
+  font-weight: 700;
+  color: #393939;
+}
+
+.header-home .header-content form div{
+  text-align: left;
+}
+
+.header-home .header-content form div button.button-explore{
+  width: 180px;
+  height: 52px;
+  border: none;
+  border-radius: 10px;
+  font-size: 17px;
+  font-weight: 900;
+  background-color: #4FBDBA;
+  margin-top: 51px;
+  margin-left: 122px;
+}
+
+.header-home .header-content .text{
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 33px;
+}
+
+.header-home .header-content .text span{
+  font-weight: 900;
+}
+
+/*Style Navbar*/
+nav.container {
+  padding-top: 81px;
+}
+
+nav.container .link {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+nav.container .link li {
+  display: inline-block;
+  margin: 0 17.5px;
+}
+
+nav.container .link li a {
+  color: #B8BECD;
+  text-decoration: none;
+}
+
+nav.container .link li a.active {
+  color: #000;
+}
+
+button {
+  min-width: 132px;
+  min-height: 44px;
+  border-radius: 8px;
+}
+
+.button-outline {
+  background-color: transparent;
+  border: 1px solid #4FBDBA;
+  /* border-width: 1px;
+  border-color: #FFCD61;
+  border-style: solid; */
+}
+
+.button-filled {
+  background-color: #4FBDBA;
+  border: unset;
+}
+
 @media (max-width: 500px) {
   .header-forgot .header-content{
     padding: 0 10px;
