@@ -631,7 +631,11 @@ section.testimonials .profile .next-prev {
 }
 
 section.testimonials .profile .next-prev i{
-  margin-left: 40px;
+  margin-left: 35px;
+}
+
+section.testimonials .profile .next-prev i.fa-solid.fa-circle-chevron-left{
+  color: #686767;
 }
 
 @media (max-width: 500px) {
