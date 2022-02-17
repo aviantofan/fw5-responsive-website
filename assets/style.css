@@ -371,6 +371,10 @@ footer.footer .link-social i{
 }
 
 /*Style Navbar*/
+nav.navbar{
+  height: 162px;
+}
+
 nav.container {
   padding-top: 81px;
 }
@@ -415,6 +419,21 @@ button {
 .button-filled {
   background-color: #4FBDBA;
   border: unset;
+}
+
+.button-dark {
+  background-color: #393939;
+  border: unset;
+}
+
+.button-gray {
+  background-color: rgba(203, 203, 212, 0.27);
+  border: unset;
+}
+
+img.img-rounded-circle{
+  border-radius: 30px;
+  margin-left: 38px;
 }
 
 /*Style Home*/
@@ -544,9 +563,16 @@ button {
   font-weight: 900;
 }
 
-/* Style Section Home */
+section h2.home {
+  margin-top: 82px;
+  margin-bottom: 56px;
+  color: #000000;
+  font-weight: bold;
+  font-size: 36px;
+  font-family: 'Playfair Display', serif;
+}
 
-section h2 {
+section h2.testimonials {
   margin-top: 82px;
   margin-bottom: 56px;
   color: #000000;
@@ -638,6 +664,85 @@ section.testimonials .profile .next-prev i.fa-solid.fa-circle-chevron-left{
   color: #686767;
 }
 
+/* Style Profile */
+
+section.profile h2.page-name{
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+  margin-top: 22px;
+}
+
+section.profile form div{
+  text-align: center;
+}
+
+section.profile img.img-rounded-circle{
+  border-radius: 100px;
+  margin-left: 0px;
+  margin-bottom: 23px;
+}
+
+section.profile h2.username{
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+section.profile div.profile-desc p{
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+  color: #B8BECD;
+  margin-bottom: 57px;
+}
+
+section.profile-edit{
+  font-family: 'Nunito', sans-serif;
+}
+
+section.profile-edit label{
+  font-weight: 700;
+}
+
+section.contact h5{
+  font-weight: 900;
+}
+
+section.identity h5{
+  font-weight: 900;
+}
+
+.input-underline {
+  border: 0;
+  border-bottom: 1px solid #000;
+  padding-bottom: 26px;
+  height: 40px;
+}
+
+.input-underline:focus {
+  outline: none;
+}
+
+section.contact label{
+  color: #9F9F9F;
+}
+
+section.identity label{
+  color: #9F9F9F;
+}
+
+section.button .button-filled,
+section.button .button-dark,
+section.button .button-gray {
+  width: 322px;
+  height: 89px;
+  font-weight: 900;
+  font-size: 24px;
+}
+
+section.button .button-dark{
+  color: #4FBDBA;
+}
+
 @media (max-width: 500px) {
   .header-forgot .header-content {
     padding: 0 10px;
@@ -655,6 +760,12 @@ section.testimonials .profile .next-prev i.fa-solid.fa-circle-chevron-left{
 @media (max-width: 991px) {
     .toggled-action {
       text-align: center;
+    }
+    .icon-profile{
+      text-align: center;
+    }
+    section.profile{
+      padding-top: 50px;
     }
 }
 
