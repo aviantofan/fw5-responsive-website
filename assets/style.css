@@ -686,17 +686,17 @@ section.testimonials .profile h5 {
   font-weight: bold;
 }
 
-section.testimonials .profile .image {
+section.testimonials .profile-pic .image {
   margin: 0 auto;
   width: 396px;
 }
 
-section.testimonials .profile img {
+section.testimonials .profile-pic img {
   border-radius: 10px;
   width: 396px;
 }
 
-section.testimonials .profile .next-prev {
+section.testimonials .profile-pic .next-prev {
   position: relative;
   background-color: #fff;
   padding: 10px;
@@ -706,7 +706,7 @@ section.testimonials .profile .next-prev {
   border-radius: 16px 0px 0px 0px;
 }
 
-section.testimonials .profile button.prev{
+section.testimonials .profile-pic button.prev{
   position: absolute;
   width: 40px;
   height: 40px;
@@ -719,7 +719,7 @@ section.testimonials .profile button.prev{
   right: 80px;
 }
 
-section.testimonials .profile button.next{
+section.testimonials .profile-pic button.next{
   position: absolute;
   width: 40px;
   height: 40px;
@@ -732,7 +732,7 @@ section.testimonials .profile button.next{
   right: 15px;
 }
 
-section.testimonials .profile .next i{
+section.testimonials .profile-pic .next i{
   color: #686767;
 }
 
@@ -825,6 +825,15 @@ section.button .button-dark{
   }
 
   .header-forgot .header-content form div button.button-send {
+    width: 100%;
+  }
+  section.testimonials .comment p{
+    width: 100%;
+  }
+  section.testimonials .profile-pic img{
+    width: 100%;
+  }
+  footer.footer-home .description{
     width: 100%;
   }
 }
