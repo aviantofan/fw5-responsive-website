@@ -30,40 +30,51 @@
 <body>
   <header class="header-register">
     <div class="header-content">
-      <div class="row text">
-        <div class="col">
-          <div>
-            <h1 class="heading">Let’s Explore The World</h1>
-            <p class="signup">Don’t have account?</p>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="mb-3">
+              <h1 class="heading w-100">Let’s Explore <br /> The World</h1>
+            </div>
+            <div class="mb-2">
+              <p>Don’t have account?</p>
+            </div>
+            <div>
+              <a href="./login.html">
+                <button class="button-dark">Login</button>
+              </a>
+            </div>
           </div>
-          <div>
-            <a href="./login.html">
-              <button class="button-login">Login</button>
-            </a>
+          <div class="col-md-3 accs">
+            <div class="align-items-center">
+              <div class="d-flex align-items-center flex-column accs">
+                <div class="circle1"></div>
+                <div class="line1"></div>
+                <div class="circle2"></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <div class="mb-4">
+              <input placeholder="Name" type="text" class="name" />
+            </div>
+            <div class="mb-4">
+              <input placeholder="Email" type="email" class="email" />
+            </div>
+            <div class="mb-4">
+              <input placeholder="Password" type="password" class="password" />
+            </div>
+            <div class="mb-4">
+              <button class="button-signup">Sign Up</button>
+            </div>
+            <div>
+              <button class="button-signup-google">
+                <img src="./assets/images/google.png" alt="Logo" />
+                Sign Up With Google
+              </button>
+            </div>
           </div>
         </div>
-        <div class="col-md-6">
-          <div>
-            <input placeholder="Name" type="name" class="name" />
-          </div>
-          <div>
-            <input placeholder="Email" type="email" class="email" />
-          </div>
-          <div>
-            <input placeholder="Password" type="password" class="password" />
-          </div>
-          <div>
-            <button class="button-signup">Sign Up</button>
-          </div>
-          <div>
-            <button class="button-signup-google">
-              <img src="./assets/images/google.png" alt="Logo" />
-              Sign Up With Google
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
   </header>
 
   <footer class="footer">

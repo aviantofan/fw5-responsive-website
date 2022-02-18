@@ -245,8 +245,7 @@ footer.footer-home .link-social i{
   font-size: 24px;
   background-color: rgba(255, 255, 255, 0.5);
   color: white;
-  margin-top: 130px;
-  margin-bottom: 31px;
+  margin-top: 160px;
   margin-left: 120px;
 }
 
@@ -258,13 +257,21 @@ footer.footer-home .link-social i{
   font-size: 24px;
   background-color: rgba(255, 255, 255, 0.5);
   color: white;
-  margin-top: 24;
-  margin-bottom: 31px;
   margin-left: 120px;
 }
 
 .header-login .header-content div input:focus{
   outline: none;
+}
+
+.header-login .header-content div input.email:read-write,
+.header-login .header-content div input.password:read-write{
+  padding-left: 41px;
+}
+
+.header-login .header-content div input.email::placeholder,
+.header-login .header-content div input.password::placeholder{
+  color: #FFFFFF
 }
 
 .header-login .header-content div p.forgot{
@@ -274,7 +281,6 @@ footer.footer-home .link-social i{
   text-decoration: underline;
   color: white;
   margin-top: 0;
-  margin-bottom: 31px;
   margin-left: 120px;
 }
 
@@ -284,7 +290,6 @@ footer.footer-home .link-social i{
   border: none;
   border-radius: 10px;
   margin-left: 120px;
-  margin-top: 19px;
   background-color: #4FBDBA;
   font-weight: 900;
   font-size: 24px;
@@ -296,20 +301,9 @@ footer.footer-home .link-social i{
   border: none;
   border-radius: 10px;
   margin-left: 120px;
-  margin-top: 19px;
   background-color:white;
   font-weight: 900;
   font-size: 24px;
-}
-
-.header-login .header-content div input.email::placeholder{
-  color: white;
-  padding-left: 41px;
-}
-
-.header-login .header-content div input.password::placeholder{
-  color: white;
-  padding-left: 41px;
 }
 
 /*Style Register*/
@@ -333,28 +327,52 @@ footer.footer-home .link-social i{
   font-family: 'Playfair Display', serif;;
   font-weight: 700;
   font-size: 64px;
-  width: 550px;
   padding-top: 107px;
-  padding-left: 139px;
   line-height: 85px;
 }
 
-.header-register .header-content p.signup{
+.header-register .header-content p{
   font-weight: 700;
   margin-top: 43px;
-  padding-left: 139px;
 }
 
-.header-register .header-content div button.button-login{
+.header-register .header-content div button.button-dark{
   width: 391px;
   height: 79px;
-  margin-left: 138px;
   font-size: 24px;
   font-weight: 900;
-  border: none;
   border-radius: 10px;
-  background-color: #072227;
   color: #AEFEFF;
+}
+
+.header-register .header-content div.accs{
+  width: 20px;
+  height: 650px;
+  display: flex;
+  justify-content: right;
+  padding: 0 0 0 0;
+}
+
+.header-register .header-content div div.circle1{
+  text-align: center;
+  height: 20px;
+  width: 20px;
+  margin-top: 107px;
+  border-radius: 10px;
+  background: white;
+}
+
+.header-register .header-content div div.line1{
+  background: white;
+  flex: 1;
+  width: 1px;
+}
+
+.header-register .header-content div div.circle2{
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+  background: white;
 }
 
 .header-register .header-content div input.name{
@@ -365,8 +383,7 @@ footer.footer-home .link-social i{
   font-size: 24px;
   background-color: rgba(255, 255, 255, 0.5);
   color: white;
-  margin-top: 140px;
-  margin-bottom: 31px;
+  margin-top: 130px;
   margin-left: 120px;
 }
 
@@ -379,7 +396,6 @@ footer.footer-home .link-social i{
   background-color: rgba(255, 255, 255, 0.5);
   color: white;
   margin-top: 24;
-  margin-bottom: 31px;
   margin-left: 120px;
 }
 
@@ -392,12 +408,23 @@ footer.footer-home .link-social i{
   background-color: rgba(255, 255, 255, 0.5);
   color: white;
   margin-top: 24;
-  margin-bottom: 31px;
   margin-left: 120px;
 }
 
 .header-register .header-content div input:focus{
   outline: none;
+}
+
+.header-register .header-content div input.name:read-write,
+.header-register .header-content div input.email:read-write,
+.header-register .header-content div input.password:read-write{
+  padding-left: 41px;
+}
+
+.header-register .header-content div input.name::placeholder,
+.header-register .header-content div input.email::placeholder,
+.header-register .header-content div input.password::placeholder{
+  color: #FFFFFF;
 }
 
 .header-register .header-content div button.button-signup{
@@ -417,25 +444,9 @@ footer.footer-home .link-social i{
   border: none;
   border-radius: 10px;
   margin-left: 120px;
-  margin-top: 24px;
   background-color:white;
   font-weight: 900;
   font-size: 24px;
-}
-
-.header-register .header-content div input.name::placeholder{
-  color: white;
-  padding-left: 41px;
-}
-
-.header-register .header-content div input.email::placeholder{
-  color: white;
-  padding-left: 41px;
-}
-
-.header-register .header-content div input.password::placeholder{
-  color: white;
-  padding-left: 41px;
 }
 
 /*Style Navbar*/
