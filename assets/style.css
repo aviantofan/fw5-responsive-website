@@ -771,7 +771,14 @@ section.button .button-dark{
     section.profile{
       padding-top: 100px;
     }
-    
+    section.button .button-filled,
+    section.button .button-dark,
+    section.button .button-gray {
+      width: 90px;
+      height: 50px;
+      font-weight: 900;
+      font-size: 12px;
+    } 
 }
 
 @media (max-width: 1439px) {
