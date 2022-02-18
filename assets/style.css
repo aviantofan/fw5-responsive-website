@@ -189,28 +189,52 @@ footer.footer-home .link-social i{
   font-family: 'Playfair Display', serif;;
   font-weight: 700;
   font-size: 64px;
-  width: 550px;
   padding-top: 107px;
-  padding-left: 139px;
   line-height: 85px;
 }
 
-.header-login .header-content p.signup{
+.header-login .header-content p{
   font-weight: 700;
   margin-top: 43px;
-  padding-left: 139px;
 }
 
-.header-login .header-content div button.button-signup{
+.header-login .header-content div button.button-dark{
   width: 391px;
   height: 79px;
-  margin-left: 138px;
   font-size: 24px;
   font-weight: 900;
-  border: none;
   border-radius: 10px;
-  background-color: #072227;
   color: #AEFEFF;
+}
+
+.header-login .header-content div.accs{
+  width: 20px;
+  height: 650px;
+  display: flex;
+  justify-content: right;
+  padding: 0 0 0 0;
+}
+
+.header-login .header-content div div.circle1{
+  text-align: center;
+  height: 20px;
+  width: 20px;
+  margin-top: 107px;
+  border-radius: 10px;
+  background: white;
+}
+
+.header-login .header-content div div.line1{
+  background: white;
+  flex: 1;
+  width: 1px;
+}
+
+.header-login .header-content div div.circle2{
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+  background: white;
 }
 
 .header-login .header-content div input.email{
@@ -221,7 +245,7 @@ footer.footer-home .link-social i{
   font-size: 24px;
   background-color: rgba(255, 255, 255, 0.5);
   color: white;
-  margin-top: 166px;
+  margin-top: 130px;
   margin-bottom: 31px;
   margin-left: 120px;
 }
@@ -466,7 +490,7 @@ button {
 }
 
 .button-dark {
-  background-color: #393939;
+  background-color: #072227;
   border: unset;
 }
 
@@ -514,6 +538,7 @@ img.img-rounded-circle{
   text-align: left;
   font-weight: 900;
   line-height: 85px;
+  margin-bottom: 0px;
 }
 
 .header-home .header-content div.line2{
@@ -527,13 +552,15 @@ img.img-rounded-circle{
   padding: 0 0 0 0;
 }
 
-.header-home .header-content div select.option-form{
+.header-home .header-content div select.form-select{
   width: 220px;
   height: 52px;
   border-radius: 6px;
-  background: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.5);
   font-family: 'Nunito', sans-serif;
   font-weight: 700;
+  padding-left: 25px;
+  padding-right: 25px;
   color: #393939;
 }
 
@@ -779,6 +806,14 @@ section.button .button-dark{
       font-weight: 900;
       font-size: 12px;
     } 
+    .header-home .header-content h1.heading2{
+      font-size: 54px;
+      text-align: center;
+      padding-top: 10px;
+    }
+    .header-home .header-content p.text2{
+      text-align: center;
+    }
 }
 
 @media (max-width: 1439px) {
