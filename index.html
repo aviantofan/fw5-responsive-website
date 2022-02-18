@@ -88,7 +88,7 @@
               </select>
             </div>
           </div>
-          <div class="row">
+          <div class="row select-option">
             <div class="col-sm-5 mb-4 option">
               <select class="form-select">
                 <option value="">Payment</option>
@@ -100,7 +100,7 @@
               </select>
             </div>
           </div>
-          <div class="row">
+          <div class="row select-option">
             <div class="col-sm-5 option">
               <button class="button-filled">Explore</button>
             </div>
@@ -111,7 +111,20 @@
 
   <main class="container">
     <section class="destination">
-      <h2 class="home">Popular in town</h2>
+      <div class="row">
+        <div class="col">
+          <h2 class="home">Popular in town</h2>
+        </div>
+        <div class="col">
+          <div class="direction justify-content-center">
+            <a class="section-link-view mt-2" href="#">
+              View all
+              <i class="fa-solid fa-chevron-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      </div>
       <div class="row">
         <div class="col-6 col-lg-3">
           <a href="#">
@@ -173,11 +186,11 @@
           </div>
         </div>
         <div class="col-12 col-lg-6 mt-5 profile">
-          <div class="image">
+          <div class="image d-inline-block position-relative">
             <img src="./assets/images/user-home.png" alt="user-home">
-            <div class="ms-auto next-prev">
-              <i class="fa-solid fa-circle-chevron-left"></i>
-              <i class="fa-solid fa-circle-chevron-right"></i>
+            <div class="row ms-auto next-prev">
+              <button class="position-absolute prev"><i class="fa-solid fa-chevron-left"></i></button>
+              <button class="position-absolute-left next"><i class="fa-solid fa-chevron-right"></i></button>
             </div>
           </div>
         </div>

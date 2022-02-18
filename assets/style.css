@@ -561,6 +561,11 @@ img.img-rounded-circle{
 
 .header-home .header-content div.option{
   padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+
+.header-home .header-content div.select-option{
+  margin: 0 0 0 0;
 }
 
 .header-home .header-content div select.form-select{
@@ -606,6 +611,15 @@ section h2.home {
   font-weight: bold;
   font-size: 36px;
   font-family: 'Playfair Display', serif;
+}
+
+section .direction{
+  margin-top: 90px;
+  text-align: right;
+}
+
+section .direction a{
+  font-weight: 400;
 }
 
 section h2.testimonials {
@@ -686,17 +700,39 @@ section.testimonials .profile .next-prev {
   position: relative;
   background-color: #fff;
   padding: 10px;
-  margin-top: -53px;
+  margin-top: -70px;
   width: 132px;
   height: 60px;
   border-radius: 16px 0px 0px 0px;
 }
 
-section.testimonials .profile .next-prev i{
-  margin-left: 35px;
+section.testimonials .profile button.prev{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  min-height: unset;
+  min-width: unset;
+  border: 2px solid #D7D7D7 ;
+  top: 10px;
+  bottom: 25px;
+  right: 80px;
 }
 
-section.testimonials .profile .next-prev i.fa-solid.fa-circle-chevron-left{
+section.testimonials .profile button.next{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  min-height: unset;
+  min-width: unset;
+  border: 2px solid #4FBDBA ;
+  top: 10px;
+  bottom: 25px;
+  right: 15px;
+}
+
+section.testimonials .profile .next i{
   color: #686767;
 }
 
@@ -794,9 +830,6 @@ section.button .button-dark{
 }
 
 @media (max-width: 600px) {
-  .header-home .header-content div.option{
-    text-align: center;
-  }  
 }
 
 @media (max-width: 991px) {
