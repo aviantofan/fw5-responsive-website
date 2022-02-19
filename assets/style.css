@@ -1032,6 +1032,20 @@ section.semi-footer{
   text-align: center;
 }
 
+/* Style Reservation */
+
+section.preview .form-select{
+  width: 396px;
+  height: 80px;
+  border-radius: 6px;
+  background-color: rgba(255, 255, 255, 0.5);
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+  padding-left: 25px;
+  padding-right: 25px;
+  color: #393939;
+}
+
 @media (max-width: 600px) {
 }
 
