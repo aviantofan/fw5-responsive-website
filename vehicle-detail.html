@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vehicool-Rent Is Your Choice</title>
+  <!--Bootstrap CDN-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/js/bootstrap.bundle.min.js"
+    integrity="sha512-sH8JPhKJUeA9PWk3eOcOl8U+lfZTgtBXD41q6cO/slwxGHCxKcW45K4oPCUhHG7NMB4mbKEddVmPuTXtpbCbFA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/css/bootstrap.min.css"
+    integrity="sha512-Ez0cGzNzHR1tYAv56860NLspgUGuQw16GiOOp/I2LuTmpSK9xDXlgJz3XN4cnpXWDmkNBKXR/VDMTCnAaEooxA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!--FontAwesome CDN-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!--Google Font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700;900&display=swap" rel="stylesheet">
+  <!--Custom CSS-->
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="./assets/images/logo.png" alt="logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto me-5 mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Vehicle</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">History</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+        </ul>
+        <div class="icon-profile">
+          <i class="fa-regular fa-envelope fa-2xl"></i>
+          <img src="./assets/images/profile-image.png" class="img-rounded-circle" alt="profile">
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container">
+    <section class="back">
+      <div>
+        <a href="#">
+          <i class="fa-solid fa-chevron-left fa-2xl "></i>
+        </a>
+        <span>Detail</span>
+      </div>
+    </section>
+
+    <section class="preview">
+      <div class="row pt-5">
+        <div class="col">
+          <img src="./assets/images/fixie-white-width.png" alt="Vehicle Detail">
+          <div class="row align-items-center justify-content-center">
+            <div class="col-md-1">
+              <button class="prev"><i class="fa-solid fa-chevron-left fa-2xl"></i></button>
+            </div>
+            <div class="col-md-5">
+              <img src="./assets/images/fixie-white-width2.png" class="img-fluid" alt="Vehicle Detail">
+            </div>
+            <div class="col-md-5 text-end">
+              <img src="./assets/images/fixie-white-width2.png" class="img-fluid" alt="Vehicle Detail">
+            </div>
+            <div class="col-md-1">
+              <button class="next"><i class="fa-solid fa-chevron-right fa-2xl"></i></button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="desc">
+            <h2>Fixie-Gray Only</h2>
+            <p class="text-muted">Yogyakarta</p>
+          </div>
+          <div class="status-vehicle mb-3 d-flex flex-column">
+            <span class="text-success fw-bold my-2">Available</span>
+            <span class="text-danger mb-3">No prepayment</span>
+          </div>
+          <div class="info">
+            <div class="mb-2">
+              Capacity: 1 Person
+            </div>
+            <div class="mb-2">
+              Type : Bike
+            </div>
+            <div>
+              Reservation before 2 PM
+            </div>
+          </div>
+          <div class="price mt-4 mb-4 text-end">
+            Rp.78.000/day
+          </div>
+          <div class="day d-flex flex-row justify-content-between align-items-center">
+            <div class="col">
+              <button class="plus"><i class="fa-solid fa-plus fa-2xl"></i></button>
+            </div>
+            <div class="col-md-8">
+              <div class="count">2</div>
+            </div>
+            <div class="col">
+              <button class="minus"><i class="fa-solid fa-minus fa-2xl"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="semi-footer">
+      <div class="row mt-4">
+        <div class="col">
+          <button class="button-dark">Chat Admin</button>
+        </div>
+        <div class="col">
+          <button class="button-filled">Reservation</button>
+        </div>
+        <div class="col mb-4">
+          <button class="button-like"><i class="fa-solid fa-heart fa-2xl"></i>
+            <span>Like</span>
+          </button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row text">
+        <div class="col">
+          <div>
+            <img src="./assets/images/logo.png" alt="Logo" />
+          </div>
+          <div class="description">Plan and book your perfect trip with
+            expert advice, travel tips for vehicle
+            information from us</div>
+          <div>©2022 Vehicle Rental Center. All rights reserved</div>
+        </div>
+        <div class="col-md-2">
+          <h5>Destination</h5>
+          <ul>
+            <li>Bali</li>
+            <li>Yogyakarta</li>
+            <li>Jakarta</li>
+            <li>Kalimantan</li>
+            <li>Malang</li>
+          </ul>
+        </div>
+        <div class="col-md-2">
+          <h5>Vehicle</h5>
+          <ul>
+            <li>Bike</li>
+            <li>Cars</li>
+            <li>Motorbike</li>
+            <li>Return Times</li>
+            <li>FAQs</li>
+          </ul>
+        </div>
+        <div class="col-md-2">
+          <h5>Interests</h5>
+          <ul>
+            <li>Adventure Travel</li>
+            <li>Art And Culture</li>
+            <li>Wildlife And Nature</li>
+            <li>Family Holidays</li>
+            <li>Culinary Trip</li>
+          </ul>
+        </div>
+      </div>
+      <div class="link-social">
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin-in"></i>
+        <i class="fa-brands fa-youtube"></i>
+      </div>
+    </div>
+    </div>
+  </footer>
+</body>
+
+</html>
