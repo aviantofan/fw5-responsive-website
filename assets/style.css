@@ -863,6 +863,30 @@ section.button .button-dark{
   color: #4FBDBA;
 }
 
+/* Style Vehicle Type */
+
+section.search .search-input{
+  height: 62px;
+}
+
+section.search .search-type{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border: unset;
+  border-radius: 25px;
+  min-height: unset;
+  min-width: unset;
+  bottom: 15px;
+  right: 40px;
+  top: 5px;
+}
+
+section.search .search-input:read-write{
+  padding-left: 41px;
+}
+
 @media (max-width: 500px) {
   .header-forgot .header-content {
     padding: 0 10px;
