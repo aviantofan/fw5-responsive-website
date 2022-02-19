@@ -26,7 +26,7 @@ body{
 
 .header-forgot .header-content .header-nav i{
   font-size: 30px;
-  margin-right: 76px;
+  margin-right: 45px;
 }
 
 .header-forgot .header-content .header-nav span{
@@ -482,8 +482,8 @@ nav.container .link li a.active {
 }
 
 button {
-  min-width: 132px;
-  min-height: 44px;
+  width: 132px;
+  height: 44px;
   border-radius: 8px;
 }
 
@@ -908,6 +908,128 @@ section.search .search-input:read-write{
   footer.footer-home .description{
     width: 100%;
   }
+}
+
+/* Style Vehicle Detail */
+
+section.back div i{
+  margin-right: 45;
+}
+
+section.back div span{
+  font-size: 24px;
+  font-weight: 700;
+  margin-left: 25px;
+}
+
+section.preview button.prev{
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  min-height: unset;
+  min-width: unset;
+  color: #4A4C53;
+  background-color: white;
+  border: unset;
+}
+
+section.preview button.next{
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  min-height: unset;
+  min-width: unset;
+  color: #4A4C53;
+  background-color: white;
+  border: unset;
+  padding-right: 20px;
+}
+
+section.preview .desc h2{
+  font-weight: 900;
+}
+
+section.preview .desc p{
+  font-weight: 400;
+}
+
+section.preview .desc h2,
+section.preview .desc p{
+  font-family: 'Playfair Display', serif;
+  font-size: 48px;
+}
+
+section.preview .status-vehicle{
+  font-weight: 300;
+  font-size: 24px;
+}
+
+section.preview .info{
+  font-weight: 300;
+  font-size: 24px;
+}
+
+section.preview .price{
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+  font-size: 36px;
+}
+
+section.preview button.plus{
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  text-align: center;
+  border: unset;
+  background-color: #4FBDBA;
+}
+
+section.preview button.minus{
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  text-align: center;
+  border: unset;
+  background-color: rgba(203, 203, 212, 0.2);;
+}
+
+section.preview .count{
+  font-size: 48px;
+  font-weight: 900;
+}
+
+section.preview .day{
+  text-align: center;
+}
+
+section.semi-footer button.button-dark{
+  color: #4FBDBA;
+  width: 415px;
+  height: 89px;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+section.semi-footer button.button-filled{
+  color: #072227;
+  width: 415px;
+  height: 89px;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+section.semi-footer .button-like{
+  color: #4FBDBA;
+  background-color: #072227;
+  width: 235px;
+  height: 89px;
+  font-size: 24px;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+}
+
+section.semi-footer{
+  text-align: center;
 }
 
 @media (max-width: 600px) {
