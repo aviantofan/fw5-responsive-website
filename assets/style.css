@@ -59,12 +59,12 @@ body{
   margin-bottom: 31px;
 }
 
-.header-forgot .header-content form div input:focus{
-  outline: none;
+.header-forgot .header-content form div input::placeholder{
+  color: #FFFFFF;
 }
 
-.header-forgot .header-content form div input::placeholder{
-  color: white;
+.header-forgot .header-content form div input:focus{
+  outline: none;
 }
 
 .header-forgot .header-content form div button.button-send{
@@ -76,6 +76,7 @@ body{
   font-weight: 900;
   background-color: #4FBDBA;
   margin-bottom: 54px;
+  color: #072227;
 }
 
 .header-forgot .header-content .text{
@@ -83,6 +84,7 @@ body{
   font-weight: 700;
   text-align: center;
   line-height: 33px;
+  margin-top: 170px;
 }
 
 .header-forgot .header-content .text span{
@@ -458,6 +460,15 @@ nav.container {
   padding-top: 81px;
 }
 
+.brand{
+  font-size: 35px;
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  color: #072227;
+  stroke: 2px #32DBC6;
+  stroke-linejoin: round;
+}
+
 nav.container .link {
   padding-left: 0;
   margin-bottom: 0;
@@ -817,6 +828,7 @@ section.profile div.profile-desc p{
 
 section.profile-edit{
   font-family: 'Nunito', sans-serif;
+  margin-top: 400px;
 }
 
 section.profile-edit label{
