@@ -1179,10 +1179,7 @@ form input::placeholder {
   background-color: #fff;
   box-shadow: 0 0 0 0.25rem rgba(13, 253, 221, 0.25) !important;
 }
-.form-control:focus,
-.form-control:hover {
-  padding-right: 100px;
-}
+
 .form-control::placeholder {
   color: #B8BECD;
 }
@@ -1209,10 +1206,6 @@ form input::placeholder {
 
 .history-contain:hover {
   justify-content: space-between;
-}
-
-.history-contain:hover .history-data {
-  margin-left: -107px;
 }
 
 .history-contain:hover .delete {
@@ -1248,11 +1241,6 @@ form input::placeholder {
   font-weight: bold;
   color: #fff;
   background-color: #32DBC6;
-}
-
-.btn-green:hover {
-  background-color: #EBEFD0;
-  color: #085F63;
 }
 
 .border {
