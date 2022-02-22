@@ -490,9 +490,6 @@ button {
 .button-outline {
   background-color: transparent;
   border: 1px solid #4FBDBA;
-  /* border-width: 1px;
-  border-color: #FFCD61;
-  border-style: solid; */
 }
 
 .button-filled {
