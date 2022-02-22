@@ -201,7 +201,7 @@ footer.footer-home .link-social i{
 }
 
 .header-login .header-content div button.button-dark{
-  width: 391px;
+  width: 100%;
   height: 79px;
   font-size: 24px;
   font-weight: 900;
@@ -215,32 +215,30 @@ footer.footer-home .link-social i{
   display: flex;
   justify-content: right;
   padding: 0 0 0 0;
+  margin-top: 20px;
 }
 
 .header-login .header-content div div.circle1{
-  text-align: center;
-  height: 20px;
   width: 20px;
-  margin-top: 107px;
-  border-radius: 10px;
-  background: white;
+  height: 20px;
+  background-color: white;
+  border-radius: 20px;
 }
 
 .header-login .header-content div div.line1{
   background: white;
-  flex: 1;
+  height: 100%;
   width: 1px;
 }
 
 .header-login .header-content div div.circle2{
-  height: 20px;
   width: 20px;
-  border-radius: 10px;
-  background: white;
+  height: 20px;
+  background-color: white;
+  border-radius: 20px;
 }
 
 .header-login .header-content div input.email{
-  width: 447px;
   height: 79px;
   border: none;
   border-radius: 10px;
@@ -252,7 +250,6 @@ footer.footer-home .link-social i{
 }
 
 .header-login .header-content div input.password{
-  width: 447px;
   height: 79px;
   border: none;
   border-radius: 10px;
@@ -287,7 +284,6 @@ footer.footer-home .link-social i{
 }
 
 .header-login .header-content div button.button-login{
-  width: 446px;
   height: 79px;
   border: none;
   border-radius: 10px;
@@ -298,7 +294,6 @@ footer.footer-home .link-social i{
 }
 
 .header-login .header-content div button.button-login-google{
-  width: 446px;
   height: 79px;
   border: none;
   border-radius: 10px;
@@ -570,17 +565,8 @@ img.img-rounded-circle{
   border-radius: 4px;
 }
 
-.header-home .header-content div.option{
-  padding: 0 0 0 0;
-  margin: 0 0 0 0;
-}
-
-.header-home .header-content div.select-option{
-  margin: 0 0 0 0;
-}
-
 .header-home .header-content div select.form-select{
-  width: 220px;
+  width: 100%;
   height: 52px;
   border-radius: 6px;
   background-color: rgba(255, 255, 255, 0.5);
@@ -651,15 +637,8 @@ main section a {
   text-decoration: none;
 }
 
-main section .highlight {
-  margin-top: -54px;
-  position: relative;
-  background-color: #ffff;
-  width: 120px;
-  height: 56px;
-  border-radius: 0px 6px 0px 0px;
-  font-family: 'Nunito', sans-serif;
-  color: #042521;
+.item-list .highlight{
+  width: 128px;
 }
 
 main section .highlight h5 {
@@ -897,29 +876,6 @@ section.search .search-type{
 
 section.search .search-input:read-write{
   padding-left: 41px;
-}
-
-@media (max-width: 500px) {
-  .header-forgot .header-content {
-    padding: 0 10px;
-  }
-
-  .header-forgot .header-content form div input {
-    width: 100%;
-  }
-
-  .header-forgot .header-content form div button.button-send {
-    width: 100%;
-  }
-  section.testimonials .comment p{
-    width: 100%;
-  }
-  section.testimonials .profile-pic img{
-    width: 100%;
-  }
-  footer.footer-home .description{
-    width: 100%;
-  }
 }
 
 /* Style Vehicle Detail */
@@ -1283,7 +1239,116 @@ aside h5 {
   border-top-right-radius: 8px;
 }
 
+@media (max-width: 500px) {
+  .header-forgot .header-content {
+    padding: 0 10px;
+  }
+
+  .header-forgot .header-content form div input {
+    width: 100%;
+  }
+
+  .header-forgot .header-content form div button.button-send {
+    width: 100%;
+  }
+  section.testimonials .comment p{
+    width: 100%;
+  }
+  section.testimonials .profile-pic img{
+    width: 100%;
+  }
+  footer.footer-home .description{
+    width: 100%;
+  }
+  .brand{
+    font-size: 100%;
+  }
+}
+
 @media (max-width: 600px) {
+  .header-home .header-content .select-option .option{
+    text-align: center;
+  }
+}
+
+@media(max-width: 989px){
+  .header-login .header-content h1.heading{
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    padding-top: unset;
+    line-height: 85px;
+  }
+  .header-login .header-content div div.line1{
+    width: unset;
+    height:unset;
+  }
+  .header-login .header-content div div.circle1{
+    width: unset;
+    height: unset;
+    border-radius: unset;
+  }
+  .header-login .header-content div div.circle2{
+    width: unset;
+    height: unset;
+    border-radius: unset;
+  }
+  .header-login .header-content div.accs{
+    width: unset;
+    height: unset;
+    display: unset;
+    justify-content: unset;
+    padding: 0 0 0 0;
+    margin-top: unset;
+  }
+  .header-login .header-content div input.email{
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: white;
+    margin-top: 50px;
+    margin-left: unset;
+  }
+  .header-login .header-content div input.password{
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: white;
+    margin-top: unset;
+    margin-left: unset;
+  }
+  .header-login .header-content div p.forgot{
+    font-size: 18px;
+    font-family: 'Mulish', sans-serif;
+    line-height: 20px;
+    text-decoration: underline;
+    color: white;
+    margin-top: 0;
+    margin-left: unset;
+  }
+  .header-login .header-content div button.button-login{
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    margin-left: unset;
+    background-color: #4FBDBA;
+    font-weight: 900;
+    font-size: 24px;
+  }
+  .header-login .header-content div button.button-login-google{
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    margin-left: unset;
+    background-color: #FFFFFF;
+    font-weight: 900;
+    font-size: 24px;
+  }
 }
 
 @media (max-width: 991px) {
